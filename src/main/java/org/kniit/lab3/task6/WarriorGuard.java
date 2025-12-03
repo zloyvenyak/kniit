@@ -6,7 +6,7 @@ public class WarriorGuard extends Warrior {
     public WarriorGuard(String name) {
         super(name);
         this.additionalDefense = 10;
-        this.maxHealth += 20;  // У стража больше здоровья
+        this.maxHealth += 20;
         this.health = maxHealth;
         this.defense += additionalDefense;
     }
