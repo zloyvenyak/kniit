@@ -59,17 +59,6 @@ public class Main {
                 }
             }
 
-        } catch (FileNotFoundException e) {
-            System.out.println("Файл dictionary.txt не найден!");
-
-            System.out.println("\nРабота с тестовым словарем:");
-            String[] testWords = {"кот", "топот", "шалаш", "программа", "алфавит"};
-            char[] alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя".toCharArray();
-
-            DictionaryStatistic testStats = new DictionaryStatistic(testWords, alphabet);
-            testStats.printGeneralStat();
-            testStats.printSymbolsStat();
-
         } catch (Exception e) {
             System.out.println("Ошибка: " + e.getMessage());
         }
