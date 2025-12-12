@@ -165,7 +165,7 @@ public class DictionaryStatistic {
             }
             if (freqCopy[maxIndex] > 0) {
                 System.out.println((i+1) + ". " + alphabet[maxIndex] + " - " + freqCopy[maxIndex] + " раз");
-                freqCopy[maxIndex] = -1; // Помечаем как обработанную
+                freqCopy[maxIndex] = -1;
             }
         }
     }
